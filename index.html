@@ -7,103 +7,113 @@
 <meta name="description" content="Portfolio of Chandramouli Garikina, Python backend developer building production AI/ML and LLM systems.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="thread" aria-hidden="true"></div>
-
 <header class="nav">
-  <a href="#top" class="nav__mark">cg<span class="dot">.</span></a>
+  <a href="#top" class="nav__mark">Chandramouli Garikina</a>
   <nav class="nav__links">
-    <a href="#about">about</a>
-    <a href="#stack">stack</a>
-    <a href="#experience">experience</a>
-    <a href="#projects">projects</a>
-    <a href="#education">education</a>
-    <a href="#contact">contact</a>
+    <a href="#about">About</a>
+    <a href="#stack">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
   </nav>
+  <a class="nav__cta" href="#contact">Contact</a>
 </header>
 
 <main id="top">
 
   <section class="hero">
-    <p class="hero__eyebrow">python backend developer — ai / ml</p>
-    <h1 class="hero__sig">
-      <span class="tok kw">def</span> <span class="tok fn">chandramouli_garikina</span><span class="tok punc">(</span><span class="tok arg">role</span><span class="tok punc">=</span><span class="tok str">"backend engineer"</span><span class="tok punc">,</span> <span class="tok arg">focus</span><span class="tok punc">=</span><span class="tok str">"LLM &amp; RAG systems"</span><span class="tok punc">):</span>
-      <span class="hero__return"><span class="tok kw">return</span> <span class="tok str">"production-ready, end to end"</span></span>
-      <span class="caret" aria-hidden="true"></span>
-    </h1>
-    <p class="hero__desc">
-      2+ years turning data-science prototypes into backend services that hold up in production —
-      FastAPI and Flask APIs wired to ML models, LLM components, and RAG pipelines, deployed with
-      Docker and shipped with AI-assisted tooling.
-    </p>
-    <div class="hero__links">
-      <a href="mailto:garikinachandramouli@gmail.com">garikinachandramouli@gmail.com</a>
-      <a href="https://github.com/chandramouli2812" data-fill="github">GitHub ↗</a>
-      <a href="https://www.linkedin.com/in/mouli5342/" data-fill="linkedin">LinkedIn ↗</a>
-      <span class="hero__loc">AP, India</span>
+    <div class="hero__photo">
+      <img src="assets/photo.jpg" alt="Portrait of Chandramouli Garikina" width="408" height="528">
+    </div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">Python Backend Developer · AI / ML</p>
+      <h1 class="hero__name">Chandramouli Garikina</h1>
+      <p class="hero__desc">
+        I design and build production backend services for AI/ML applications — REST APIs, LLM
+        components, and RAG pipelines wired into real systems, not just notebooks. Comfortable owning a
+        problem end to end, from a half-defined prototype to something a business can rely on.
+      </p>
+      <div class="hero__links">
+        <a href="mailto:garikinachandramouli@gmail.com" class="btn btn--primary">Email me</a>
+        <a href="#" data-fill="github" class="btn">GitHub</a>
+        <a href="#" data-fill="linkedin" class="btn">LinkedIn</a>
+      </div>
+      <dl class="hero__stats">
+        <div><dt>2+</dt><dd>years experience</dd></div>
+        <div><dt>4</dt><dd>roles &amp; internships</dd></div>
+        <div><dt>10+</dt><dd>ML/AI projects shipped</dd></div>
+      </dl>
     </div>
   </section>
 
   <section id="about" class="section">
-    <h2 class="section__title">about</h2>
-    <div class="about">
+    <div class="section__head">
+      <span class="section__bar"></span>
+      <h2 class="section__title">About</h2>
+    </div>
+    <div class="card about">
       <p class="about__body">
-        I build the layer between a working ML notebook and a service other systems can actually call.
-        That means designing REST APIs, integrating LLM components and RAG pipelines with databases and
-        external systems, and staying comfortable when requirements are only half written down yet —
-        which is most of the time in applied AI work.
+        I work at the point where a data-science prototype needs to become a real service. That means
+        designing REST APIs, integrating LLM components and RAG pipelines with databases and external
+        systems, and keeping code quality, testing, and reliability intact under partially defined
+        requirements — the normal condition of applied AI work.
       </p>
       <dl class="about__facts">
-        <div><dt>currently</dt><dd>Python Developer &amp; AI Engineer, Stackly</dd></div>
-        <div><dt>also</dt><dd>Software Engineer (GenAI), Baba Inspection &amp; Technical Services</dd></div>
-        <div><dt>based in</dt><dd>Andhra Pradesh, India</dd></div>
-        <div><dt>tooling</dt><dd>Claude, Cursor, GitHub Copilot</dd></div>
+        <div><dt>Currently</dt><dd>Python Developer &amp; AI Engineer, Stackly</dd></div>
+        <div><dt>Also</dt><dd>Software Engineer (GenAI), Baba Inspection &amp; Technical Services</dd></div>
+        <div><dt>Based in</dt><dd>Andhra Pradesh, India</dd></div>
+        <div><dt>AI tooling</dt><dd>Claude, Cursor, GitHub Copilot</dd></div>
       </dl>
     </div>
   </section>
 
   <section id="stack" class="section">
-    <h2 class="section__title">stack</h2>
-    <div class="stack">
+    <div class="section__head">
+      <span class="section__bar"></span>
+      <h2 class="section__title">Skills</h2>
+    </div>
+    <div class="card stack">
       <div class="stack__row">
-        <span class="stack__label">languages</span>
-        <span class="tag">Python</span><span class="tag">SQL</span>
+        <span class="stack__label">Languages</span>
+        <div class="stack__tags"><span class="tag">Python</span><span class="tag">SQL</span></div>
       </div>
       <div class="stack__row">
-        <span class="stack__label">backend &amp; apis</span>
-        <span class="tag">FastAPI</span><span class="tag">Flask</span><span class="tag">REST design</span><span class="tag">LLM integration</span><span class="tag">RAG pipelines</span><span class="tag">Model inference</span>
+        <span class="stack__label">Backend &amp; APIs</span>
+        <div class="stack__tags"><span class="tag">FastAPI</span><span class="tag">Flask</span><span class="tag">REST design</span><span class="tag">LLM integration</span><span class="tag">RAG pipelines</span><span class="tag">Model inference</span></div>
       </div>
       <div class="stack__row">
-        <span class="stack__label">ml &amp; data</span>
-        <span class="tag">Scikit-learn</span><span class="tag">XGBoost</span><span class="tag">NumPy</span><span class="tag">Pandas</span><span class="tag">Matplotlib</span><span class="tag">Seaborn</span>
+        <span class="stack__label">ML &amp; Data</span>
+        <div class="stack__tags"><span class="tag">Scikit-learn</span><span class="tag">XGBoost</span><span class="tag">NumPy</span><span class="tag">Pandas</span><span class="tag">Matplotlib</span><span class="tag">Seaborn</span></div>
       </div>
       <div class="stack__row">
-        <span class="stack__label">infra &amp; cloud</span>
-        <span class="tag">Docker</span><span class="tag">Git</span><span class="tag">CI/CD basics</span><span class="tag">GCP</span><span class="tag">AWS</span><span class="tag">Azure</span><span class="tag">IBM Cloud</span><span class="tag">Linux</span>
+        <span class="stack__label">Infra &amp; Cloud</span>
+        <div class="stack__tags"><span class="tag">Docker</span><span class="tag">Git</span><span class="tag">CI/CD basics</span><span class="tag">GCP</span><span class="tag">AWS</span><span class="tag">Azure</span><span class="tag">IBM Cloud</span><span class="tag">Linux</span></div>
       </div>
       <div class="stack__row">
-        <span class="stack__label">also</span>
-        <span class="tag">n8n</span><span class="tag">Odoo 17/18</span><span class="tag">Power BI</span><span class="tag">HTML/CSS/JS</span>
+        <span class="stack__label">Also</span>
+        <div class="stack__tags"><span class="tag">n8n</span><span class="tag">Odoo 17/18</span><span class="tag">Power BI</span><span class="tag">HTML/CSS/JS</span></div>
       </div>
     </div>
   </section>
 
   <section id="experience" class="section">
-    <h2 class="section__title">experience</h2>
+    <div class="section__head">
+      <span class="section__bar"></span>
+      <h2 class="section__title">Experience</h2>
+    </div>
     <ol class="timeline">
 
       <li class="tl-item">
-        <div class="tl-item__when">
-          <span class="tl-dot"></span>
-          <span>Feb 2025 — present</span>
-        </div>
-        <div class="tl-item__body">
-          <h3>Python Developer &amp; AI Engineer <span class="tl-item__org">· Stackly</span></h3>
-          <p class="tl-item__meta">India · full time</p>
+        <div class="tl-item__rail"><span class="tl-dot"></span><span class="tl-line"></span></div>
+        <div class="card tl-item__body">
+          <p class="tl-item__when">Feb 2025 — Present</p>
+          <h3>Python Developer &amp; AI Engineer</h3>
+          <p class="tl-item__org">Stackly · India · Full time</p>
           <ul>
             <li>Design and build Python backend services for AI/ML applications powering enterprise automation systems.</li>
             <li>Build and integrate REST APIs, ML models, LLM components, and RAG pipelines with databases and external systems using Flask and FastAPI.</li>
@@ -115,13 +125,11 @@
       </li>
 
       <li class="tl-item">
-        <div class="tl-item__when">
-          <span class="tl-dot"></span>
-          <span>Feb 2025 — present</span>
-        </div>
-        <div class="tl-item__body">
-          <h3>Software Engineer, GenAI <span class="tl-item__org">· Baba Inspection &amp; Technical Services</span></h3>
-          <p class="tl-item__meta">India · freelance</p>
+        <div class="tl-item__rail"><span class="tl-dot"></span><span class="tl-line"></span></div>
+        <div class="card tl-item__body">
+          <p class="tl-item__when">Feb 2025 — Present</p>
+          <h3>Software Engineer, GenAI</h3>
+          <p class="tl-item__org">Baba Inspection &amp; Technical Services Pvt. Ltd. · India · Freelance</p>
           <ul>
             <li>Build Python backend services integrating GenAI/LLM components into enterprise automation applications.</li>
             <li>Deploy AI models and REST APIs using Flask, Docker, and cloud infrastructure.</li>
@@ -132,13 +140,11 @@
       </li>
 
       <li class="tl-item">
-        <div class="tl-item__when">
-          <span class="tl-dot"></span>
-          <span>Jan 2024 — Feb 2025</span>
-        </div>
-        <div class="tl-item__body">
-          <h3>Data Scientist Intern <span class="tl-item__org">· Intellipaat Software Solutions</span></h3>
-          <p class="tl-item__meta">Bengaluru, India</p>
+        <div class="tl-item__rail"><span class="tl-dot"></span><span class="tl-line"></span></div>
+        <div class="card tl-item__body">
+          <p class="tl-item__when">Jan 2024 — Feb 2025</p>
+          <h3>Data Scientist Intern</h3>
+          <p class="tl-item__org">Intellipaat Software Solutions Pvt. Ltd. · Bengaluru, India</p>
           <ul>
             <li>Built and deployed machine learning models for predictive analytics.</li>
             <li>Worked on data engineering and preprocessing pipelines.</li>
@@ -148,13 +154,11 @@
       </li>
 
       <li class="tl-item">
-        <div class="tl-item__when">
-          <span class="tl-dot"></span>
-          <span>Jun 2023 — Sep 2023</span>
-        </div>
-        <div class="tl-item__body">
-          <h3>Research Data Analyst Intern <span class="tl-item__org">· DRDO – GTRE</span></h3>
-          <p class="tl-item__meta">Bengaluru, India</p>
+        <div class="tl-item__rail"><span class="tl-dot"></span></div>
+        <div class="card tl-item__body">
+          <p class="tl-item__when">Jun 2023 — Sep 2023</p>
+          <h3>Research Data Analyst Intern</h3>
+          <p class="tl-item__org">DRDO – GTRE · Bengaluru, India</p>
           <ul>
             <li>Designed ML-based predictive strain sensors with improved prediction accuracy.</li>
             <li>Worked on data modeling, analysis, and validation workflows.</li>
@@ -167,37 +171,40 @@
   </section>
 
   <section id="projects" class="section">
-    <h2 class="section__title">projects</h2>
+    <div class="section__head">
+      <span class="section__bar"></span>
+      <h2 class="section__title">Projects</h2>
+    </div>
     <div class="projects">
 
-      <article class="project">
+      <article class="card project">
         <h3>AI Workflow Automation with n8n</h3>
         <p class="project__stack">n8n · Python · GCP</p>
         <p>Custom n8n workflows automating GenAI tasks — data extraction, content generation, cloud triggers —
         wired to OpenAI, Slack, and Google Sheets. Cut manual work in daily data processing and reporting by 60%.</p>
       </article>
 
-      <article class="project">
+      <article class="card project">
         <h3>Health Prediction System</h3>
         <p class="project__stack">Python · IBM Cloud · Naive Bayes · Random Forest</p>
         <p>Real-time monitoring and health-risk prediction system, with accuracy gains from preprocessing and
         hyperparameter tuning.</p>
       </article>
 
-      <article class="project">
+      <article class="card project">
         <h3>Walmart Sales Forecasting</h3>
         <p class="project__stack">Python · ARIMA · SARIMA · XGBoost</p>
         <p>Ensemble forecasting model combining classical time-series methods with gradient boosting,
         reducing RMSE by 20%.</p>
       </article>
 
-      <article class="project">
+      <article class="card project">
         <h3>Netflix Recommendation System</h3>
         <p class="project__stack">Python · Surprise library</p>
         <p>Collaborative-filtering recommender achieving an RMSE of 1.29 on held-out ratings.</p>
       </article>
 
-      <article class="project">
+      <article class="card project">
         <h3>COVID-19 Data Analysis &amp; Visualization</h3>
         <p class="project__stack">Python · Matplotlib · Seaborn</p>
         <p>Time-series analysis of case data surfaced in actionable dashboards.</p>
@@ -207,45 +214,52 @@
   </section>
 
   <section id="education" class="section">
-    <h2 class="section__title">education &amp; certifications</h2>
-    <div class="edu">
-      <div class="edu__item">
+    <div class="section__head">
+      <span class="section__bar"></span>
+      <h2 class="section__title">Education &amp; Certifications</h2>
+    </div>
+    <div class="edu-grid">
+      <div class="card edu__item">
         <h3>Executive PG Certification in Data Science &amp; Artificial Intelligence</h3>
         <p class="edu__meta">IIT Roorkee @ Intellipaat · Jan 2025</p>
         <p>Deep Learning, SQL, GenAI, Cloud Engineering. Capstone: real-world ML projects on Azure &amp; TensorFlow.</p>
       </div>
-      <div class="edu__item">
+      <div class="card edu__item">
         <h3>B.Tech, Computer Science &amp; Engineering</h3>
         <p class="edu__meta">Chirala Engineering College · Aug 2020 – Jun 2024</p>
         <p>First Class, with focus on Python, cloud computing, and ML/AI. Best Project of the Academic Year, 2025.</p>
       </div>
     </div>
-    <ul class="certs">
-      <li>IBM Certified in Cloud and AI Applications</li>
-      <li>Microsoft Azure Data Fundamentals</li>
-      <li>Google AI Essentials</li>
-      <li>Foundations of Cybersecurity — Google</li>
-      <li>Play It Safe: Manage Security Risks — Google</li>
-      <li>Top Performer — AI Capstone Project, Intellipaat</li>
-    </ul>
+    <div class="card certs-card">
+      <ul class="certs">
+        <li>IBM Certified in Cloud and AI Applications</li>
+        <li>Microsoft Azure Data Fundamentals</li>
+        <li>Google AI Essentials</li>
+        <li>Foundations of Cybersecurity — Google</li>
+        <li>Play It Safe: Manage Security Risks — Google</li>
+        <li>Top Performer — AI Capstone Project, Intellipaat</li>
+      </ul>
+    </div>
   </section>
 
   <section id="contact" class="section section--contact">
-    <h2 class="section__title">contact</h2>
-    <p class="contact__lede">Open to backend and AI engineering roles — happy to talk through a stack, a pipeline, or a prototype that needs a production home.</p>
-    <div class="contact__links">
-      <a href="mailto:garikinachandramouli@gmail.com">garikinachandramouli@gmail.com</a>
-      <a href="tel:+918247030301">+91 82470 30301</a>
-      <a href="#" data-fill="github">GitHub ↗</a>
-      <a href="#" data-fill="linkedin">LinkedIn ↗</a>
+    <div class="card contact-card">
+      <h2 class="contact-card__title">Let's work together</h2>
+      <p class="contact-card__lede">Open to backend and AI engineering roles — happy to talk through a stack, a pipeline, or a prototype that needs a production home.</p>
+      <div class="contact-card__links">
+        <a href="mailto:garikinachandramouli@gmail.com" class="btn btn--primary">garikinachandramouli@gmail.com</a>
+        <a href="tel:+918247030301" class="btn">+91 82470 30301</a>
+        <a href="#" data-fill="github" class="btn">GitHub</a>
+        <a href="#" data-fill="linkedin" class="btn">LinkedIn</a>
+      </div>
     </div>
   </section>
 
 </main>
 
 <footer class="footer">
-  <span>Chandramouli Garikina</span>
-  <span>built with html, css, and a little js</span>
+  <span>© 2026 Chandramouli Garikina</span>
+  <span>AP, India</span>
 </footer>
 
 <script src="script.js"></script>
